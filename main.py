@@ -2,12 +2,13 @@
                                                                           
 import pyaudio
 import speech_recognition as sr
-
+fala = "sim".upper()
 # pega audio pelo microfone
-r = sr.Recognizer()                                                                                   
-with sr.Microphone() as source:                                                                       
+r = sr.Recognizer()
+with sr.Microphone() as source:
     print("Estou ouvindo... :)")
-    audio = r.listen(source)   
+    audio = r.listen(source)
+
 try:
     print("Você disse " + r.recognize_google(audio, language='pt'))
 except sr.UnknownValueError:
