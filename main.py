@@ -11,6 +11,6 @@ with sr.Microphone() as source:
 try:
     print("Você disse " + r.recognize_google(audio, language='pt'))
 except sr.UnknownValueError:
-    print("Could not understand audio")
+    print("Não foi possível entender o áudio")
 except sr.RequestError as e:
-    print("Could not request results; {0}".format(e))
+    print("Não foi possível solicitar resultados. {0}".format(e))
