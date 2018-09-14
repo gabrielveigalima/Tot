@@ -1,3 +1,0 @@
-import pyttsx
-
-pyttsx.init()
