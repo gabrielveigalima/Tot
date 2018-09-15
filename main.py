@@ -1,9 +1,6 @@
 #-*- coding: utf-8 -*-
                                                                           
-from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
-
-import os
 
 import pyaudio
 import speech_recognition as sr
@@ -12,14 +9,6 @@ import pyttsx3
 voz = pyttsx3.init('sapi5');
 
 bot = ChatBot('Tot', read_only=True)
-
-#treinar Tot
-"""bot.set_trainer(ListTrainer)
-
-for arquivo in os.listdir('conversas'): #percorrer todos os aquivos do diretório 
-    linhas = open('conversas/'+ arquivo, 'r').readlines() #ler as linhas do arquivo 
-
-    bot.train(linhas)"""
 
 
 def falar(texto):
