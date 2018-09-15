@@ -1,7 +1,8 @@
 oi
-olá
-tudo bem?
-estou bem e você?
-bem
-qual é seu nome?
-tot
+ola
+bom dia
+bom dia como vai?
+vou bem e voce?
+o que voce esta fazendo?
+nada no momento e você?
+também não estou fazendo nada.
