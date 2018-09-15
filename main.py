@@ -17,8 +17,7 @@ with sr.Microphone() as source:
                 print('Tot disse: Tchau... :)')
                 break
             else:
-                print("Você disse: " + fala)
-            
+                print("Você disse: " + fala)            
         except sr.UnknownValueError:
             print('Tot disse: Não foi possível entender o áudio')
         except sr.RequestError as e:
