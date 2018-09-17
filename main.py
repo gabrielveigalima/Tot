@@ -6,7 +6,7 @@ import pyaudio
 import speech_recognition as sr
 import pyttsx3
 
-voz = pyttsx3.init('sapi5');
+voz = pyttsx3.init();
 
 bot = ChatBot('Tot', read_only=True)
 
