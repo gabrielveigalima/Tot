@@ -12,6 +12,8 @@ Para rodar ele é necessários algus requisitomos minímos:
     <li>pip install pocketsphinx</li>
     <li>pip install chatterbot</li>
     <li>pip install pypiwin32 (Essa lib é específica para o Windows)</li>
+    <li>sudo apt-get install espeak(para alguma distribuição linux baseada em debian)</li>
+    <li>linux (sudo pip install gtts) windows(pip install gtts)</li>
     <li>pip install pyttsx3</li>
   </ul>
 </ul>
