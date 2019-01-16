@@ -1,7 +1,6 @@
 # Tot
-<h1>Bot to help people with depression.</h1>
+<h1>Assistente.</h1>
 
-<h2>Tot é um bot desenvolvido para ajudar pessoas com <strong>depressão</strong>.</h2>
 
 Para rodar ele é necessários algus requisitomos minímos:
 <ul>
