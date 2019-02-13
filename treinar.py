@@ -8,9 +8,10 @@ import os
 bot = ChatBot('Tot')
 
 #treinar Tot
-bot.set_trainer(ListTrainer)
+
+trainer = ListTrainer(bot)
 
 for arquivo in os.listdir('conversas'): #percorrer todos os aquivos do diretório 
     linhas = open('conversas/'+ arquivo, 'r').readlines() #ler as linhas do arquivo 
 
-    bot.train(linhas)
+    trainer.train(linhas)
