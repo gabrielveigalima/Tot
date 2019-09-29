@@ -1,9 +1,0 @@
-Instalações necessárias
-
-pip install speechrecognition
-pip install pocketsphinx
-pip install chatterbot
-
-pip install pypiwin32 (Windows)
-pip install pyttsx3
-

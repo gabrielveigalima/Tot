@@ -1,0 +1,5 @@
+speechrecognition
+pocketsphinx
+chatterbot
+pyttsx3
+
